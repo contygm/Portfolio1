@@ -1,0 +1,30 @@
+
+
+.div.fixed {
+
+	height: 40px;
+	width: 70px;
+	background: #999;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+.div.relative {
+
+	height: 60px;
+	width: 140px;
+	background: #eee;
+	position: relative;
+}
+
+.div.absolute {
+
+	height: 20px;
+	width: 40px;
+	background: #eee;
+	position: absolute;
+	right: -30;
+	bottom: 0;
+}

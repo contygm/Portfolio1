@@ -1,6 +1,6 @@
 
 
-.div.fixed {
+.fixed {
 
 	height: 40px;
 	width: 70px;
@@ -11,20 +11,21 @@
 
 }
 
-.div.relative {
+.relative {
 
-	height: 60px;
-	width: 140px;
+	height: 100px;
+	width: 90%;
 	background: #eee;
 	position: relative;
 }
 
-.div.absolute {
+.absolute {
 
-	height: 20px;
-	width: 40px;
-	background: #eee;
 	position: absolute;
-	right: -30;
+	right: -10px;
 	bottom: 0;
+	height: 40px;
+	width: 60px;
+	background: #999;
+	
 }

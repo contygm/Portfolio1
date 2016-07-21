@@ -15,7 +15,6 @@ header {
 
 	margin: 0;
 	padding: 0;
-	display: inline;
 	clear: both;
 	overflow: auto;
 	background-color: #ffffff;
@@ -34,10 +33,8 @@ h1 {
 
 }
 
-nav h1 {
-	position: absolute;
-	top: 0;
-	width: 100%;
+nav {
+	float:right;
 }
 
 nav ul {
@@ -73,7 +70,7 @@ section {
 }
 
 article {
-	font-size: 12px;
+	font-size: 16px;
 
 }
 

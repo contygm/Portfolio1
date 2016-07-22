@@ -93,12 +93,11 @@ article {
 	border: 1px solid #dddddd;
 	font-size: 18px;
 	margin: 30px 30px 50px 70px;
+	overflow-wrap: 
 }
 
 #mainArea {
-	
 	padding: 15px 30px 15px 30px;
-
 }
 
 h2 {
@@ -107,6 +106,14 @@ h2 {
 	display: block;
 	border-bottom: 3px solid #cccccc;
 	padding-bottom: 15px;
+}
+
+#ProfPic {
+	padding-right: 20px;
+}
+
+p {
+	line-height: 1.5;
 }
 
 /* content area: aside */

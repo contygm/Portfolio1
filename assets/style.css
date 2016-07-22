@@ -1,5 +1,14 @@
+
+#ProfPicHolder {
+
+	width: 200px;
+	height: 200px;
+	background: #999;
+
+}
+
 body {
-	background-image: lightgrey url(assets/images/concrete_seamless/concrete_seamless.png) no-repeat right top;
+	background-color: lightgrey;
 	margin: 0;
 }
 

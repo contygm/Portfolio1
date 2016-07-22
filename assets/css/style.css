@@ -37,21 +37,37 @@ h1 {
 
 nav {
 	float:right;
-	padding: 0;
-	margin: 0;
+	margin-right: 125px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 25px 5px 26px 5px;
 }
 
-nav ul {
-
+nav ul li{
 	list-style: none;
-	float: right;
+	float:left;	
+	padding: 0px 15px 0px 15px;
+	border-right: 1px solid #cccccc;
+	display: block;
+		
 }
 
-nav ul li {
-	display: inline;
-	padding: 0;
-	margin: 0;
+nav ul li:last-child {
+	border-right: none;
 }
+
+nav ul li a{
+	color: #777777;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #4aaaa5;
+}
+
+nav ul li a:active {
+	color: green;
+}
+
 
 /*end header section*/
 

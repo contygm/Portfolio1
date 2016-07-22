@@ -94,6 +94,7 @@ article {
 	font-size: 18px;
 	margin: 30px 30px 50px 70px;
 	overflow-wrap: 
+	position: relative;
 }
 
 #mainArea {
@@ -138,6 +139,7 @@ textarea {
 	width: 100%;
 	border-color: #cccccc;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
 }
 
 button {
@@ -170,36 +172,33 @@ button:focus { outline:0 !important; }
 .PortfolioLink {
 	position: relative;
 	width: 40%;
+	display: inline-block;
+	padding: 10px 22px 10px 22px;
 }
 
 .PortfolioText {
-	position: absolute;
-	bottom: 10%;
-	left: 50%;
 	font-size: 20px;
-	transform: translate(-50%, -50%);
-	color: white;
-	width: 75%;
 	text-align: center;
-}
-
-.portfolioImages{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	background-color: #4aaaa5;
+	border: none;
 	width: 250px;
-    height: auto;
+	padding: 15px 0px 15px 0px;
+	position: absolute;
+	bottom: 2%;
+	color: white;
 }
 
+.PortfolioLink:hover {
+	opacity: .5;
+}
 
+.PortfolioLink:active{
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
 
-
-
-
-
-
-
-
-
-
-/* content area: aside */
+/* content area: sidebar */
 
 aside {
 	float: right;
@@ -207,6 +206,8 @@ aside {
 	margin: 30px 70px 30px 30px;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
+	position: absolute;
+	right: 30px;
 }
 
 #sideBar{
@@ -231,6 +232,16 @@ h3 {
 #contactLinks li {
 	display: inline-block;
 	padding: 0px 10px 0px 10px;
+}
+
+#contactLinks li:hover {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);	
+}
+
+#contactLinks li:active {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);	
 }
 
 /*end content area*/

@@ -94,7 +94,6 @@ article {
 	font-size: 18px;
 	margin: 30px 30px 50px 70px;
 	overflow-wrap: 
-	position: relative;
 }
 
 #mainArea {
@@ -113,10 +112,12 @@ h2 {
 
 #ProfPic {
 	padding-right: 20px;
+
 }
 
 p {
 	line-height: 1.5;
+
 }
 
 /* content area: Contact page*/

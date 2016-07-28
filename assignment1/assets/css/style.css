@@ -1,0 +1,404 @@
+body {
+	background-image: url(../images/concrete_seamless.png);
+	margin: 0;
+	padding: 0;
+}
+
+/*start header section*/
+
+header {
+
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 100%;
+	height: 85px;
+	border-bottom: 2px solid #cccccc;
+	position: relative;
+	top: -17px;
+
+}
+
+h1 {
+	
+	float: left;
+	padding: 20px 25px 20px 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: white;
+	font-size: 26px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 100px;
+
+}
+
+nav {
+	float:right;
+	margin-right: 125px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 25px 5px 26px 5px;
+}
+
+nav ul li{
+	list-style: none;
+	float:left;	
+	padding: 0px 15px 0px 15px;
+	border-right: 1px solid #cccccc;
+	display: block;
+		
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav ul li a{
+	color: #777777;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #4aaaa5;
+}
+
+nav ul li a:active {
+	color: green;
+}
+
+
+/*end header section*/
+
+/*start content area*/
+
+#content {
+	
+	width: 100%;
+	max-width: 960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin: 0 auto;
+
+}
+
+/* content area: main content box*/
+
+article {
+
+	float: left;
+	width: 100%;
+	max-width: 650px;
+	margin: 0 0 40px 0;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	font-size: 18px;
+
+}
+
+#mainArea {
+	padding: 15px 30px 15px 30px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	display: block;
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 15px;
+}
+
+/* content area: About page*/
+
+#ProfPic {
+	padding-right: 20px;
+	float: left;
+
+}
+
+p {
+	line-height: 1.5;
+
+}
+
+/*Contact page*/
+
+form {
+	color: #777777;
+	line-height: 2.0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input {
+	width: 100%;
+	color: #cccccc;
+	padding: 5px 5px 5px 5px;
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+	width: 100%;
+	border-color: #cccccc;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 5px 5px 5px 5px;
+}
+
+button {
+	width: 20%;
+	padding: 12px 10px;
+	background-color: #4aaaa5;
+	border: 2px solid #4aaaa5;
+	color: white;
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-radius: 4px;
+}
+
+button:hover {
+	background-color: white;
+	color: #4aaaa5;
+	border: 2px solid #4aaaa5;
+}
+
+button:active {
+	background-color: #666666;
+	color: white;
+	border: 2px solid #4aaaa5;	
+}
+
+button:focus { outline:0 !important; }
+
+/*portfolio */
+
+.PortfolioLink {
+	position: relative;
+	width: 45%;
+	display: inline-block;
+	float: left;
+	overflow: auto;
+	margin: 20px 10px 20px;
+}
+
+.portfolioImages {
+	width: 100%;
+	border: 0 none;
+}
+
+.PortfolioText {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	background-color: #4aaaa5;
+	border: 0 none;
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	position: absolute;
+	bottom: 10px;
+	color: white;
+}
+
+.PortfolioLink:hover {
+	opacity: .5;
+}
+
+.PortfolioLink:active{
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+/* content area: sidebar */
+
+aside {
+	float: right;
+	width: 100%;
+	max-width: 270px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+#sideBar{
+	padding: 10px 20px 10px 20px;	
+}
+
+h3 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	text-align: center;
+	display: block;
+	font-size: 22px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#contactLinks {
+	list-style: none;
+	padding: 0px 5px 0px 5px;
+}
+
+#contactLinks li {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+#contactLinks li:hover {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);	
+}
+
+#contactLinks li:active {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);	
+}
+
+/*end content area*/
+
+/*start footer section*/
+
+footer {
+	background-color: #666666;
+	border-top: solid 6px #4aaaa5;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+	width: 100%;
+	clear: both;
+	padding: 30px 0px 30px 0px;
+}
+/* footer section: sticky footer */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+footer,
+.push {
+  height: 50px;
+}
+
+/* end footer section */
+
+
+@media only screen and (max-width: 980px) {
+
+	#ProfPic {
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	
+	#content {
+		max-width: 768px;
+	}
+
+	article{
+		max-width: 420px;
+	}
+	
+	.PortfolioLink {
+		width: 100%;
+		margin-left: 0;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	#content {
+		overflow: auto;
+		width: 90%;
+		/*margin-right: 15px;*/
+
+	}
+
+	#ProfPic {
+		width: 50%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	article, aside {
+		max-width: 100%;
+	}
+
+	aside { margin-bottom: 20px; }
+
+	h1 { left: 10px; }
+
+	nav { margin-right: 0px; }
+
+	.PortfolioLink {
+		width: 47%;
+	}
+
+	.PortfolioLink:nth-child(even){
+		margin-right: 0px;
+	} 
+
+	.PortfolioLink:nth-child(odd) {
+		float: right;
+		margin-right: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	header {
+		position: static;
+		overflow: auto;
+		width: 100%;
+		height: auto;
+
+	}
+
+	h1, nav { 
+		width: 100%;
+		display: block;
+		float: left;
+	}
+
+	h1 {
+		text-align: center;
+		left: 0;
+		margin: 0;
+		padding: 10px 0 10px 0;
+		position: relative;
+	}
+
+	nav {
+		text-align: center;
+		padding: 5px 0 15px 0;
+	}
+
+
+	nav ul li{
+		width: 30%;
+		padding: 0 0 0 0;
+	}
+	
+	#content {
+		padding-top: 30px;
+	}
+	
+
+	.PortfolioLink {
+		width: 100%;
+	}
+
+
+
+}
+
+

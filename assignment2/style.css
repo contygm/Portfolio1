@@ -1,0 +1,126 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#content {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+p {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+#ProfPic {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#mainArea {
+	float: left;
+	width: 100%;
+	max-width: 650px;
+	overflow: auto;
+	border: solid 2px #F39C12;
+}
+
+h2 {
+	border-bottom: solid 5px #00BC8C;
+	padding-bottom: 10px;
+}
+
+form {
+	padding-top: 10px;
+}
+
+.externalLinks {
+	padding: 10px 10px 10px 10px;
+}
+
+.externalLinks:hover {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);	
+}
+
+.externalLinks:active {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);	
+}
+
+
+#sideBar {
+	float: right;
+	width: 100%;
+	max-width: 270px;
+	margin: 10px 10px 10px 10px;
+}
+
+.PortfolioLink {
+	width: 45%;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	margin: 20px 10px 20px;
+	
+}
+
+.PortfolioLink:hover {
+	opacity: .5;
+}
+
+.PortfolioLink:active{
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.portfolioImages {
+	width: 100%;
+	margin: 0;
+	border: 0;
+
+}
+
+.PortfolioText {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	color: #00BC8C;
+	background-color: white;
+	padding: 5px 0 5px 0;
+	
+}
+
+/*Sticky Footer*/
+
+footer {
+	text-align: center;
+	background-color:#00BC8C;
+	padding: 10px 0 30px 0;
+	margin: 0;
+	clear: both;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+footer,
+.push {
+  height: 50px;
+}

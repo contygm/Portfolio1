@@ -14,20 +14,14 @@ body{
 
 p {
 	font-size: 18px;
-<<<<<<< HEAD
 	padding-top: 10px;
-=======
->>>>>>> 5a4506af080b3a9646186d9ac403e349cabc0f41
 }
 
 #ProfPic {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 10px;
-<<<<<<< HEAD
 	padding-top: 10px;
-=======
->>>>>>> 5a4506af080b3a9646186d9ac403e349cabc0f41
 }
 
 #mainArea {
@@ -35,7 +29,6 @@ p {
 	width: 100%;
 	max-width: 650px;
 	overflow: auto;
-<<<<<<< HEAD
 	border: solid 2px #F39C12;
 }
 
@@ -46,9 +39,6 @@ h2 {
 
 form {
 	padding-top: 10px;
-=======
-
->>>>>>> 5a4506af080b3a9646186d9ac403e349cabc0f41
 }
 
 .externalLinks {
